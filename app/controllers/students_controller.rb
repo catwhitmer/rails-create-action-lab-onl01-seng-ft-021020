@@ -18,5 +18,4 @@ class StudentsController < ApplicationController
     @student.save
     redirect_to post_path(@student)
   end
-
 end
